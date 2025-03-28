@@ -1,14 +1,31 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Đóng góp ý kiến</h1>
-    <form action>
+    <h1>ĐỀ XUẤT Ý TƯỞNG</h1>
+    <form action="bai7_nv3.html">
       <ol>
-        <li> <b>Thông tin</b>
-        </li> 
-        <li> <layble> </layble></li>
+        <li>
+          <b> Thông tin </b><br>
+          <label> Họ và tên: </label>
+          <input type="text" id="name" name="name"><br>
+          <label> Địa chỉ email: </label>
+          <input type="text" id="email" name="email"><br>
+        </li><br>
+        <li>
+          <b> Đề xuất ý kiến </b><br>
+          <textarea id="dx" name="dx" rows="4" cols="30"></textarea><br>
+          <label> Bổ sung thêm sách: </label><br>
+          <input type="checkbox" id="TrNgan" name="TrNgan"> Truyện ngắn <br>
+          <input type="checkbox" id="KNS" name="KNS"> Kỹ năng sống<br>
+          <input type="checkbox" id="CNTT" name="CNTT"> Công nghệ thông tin <br>
+          <input type="checkbox" id="TrTranh" name="TrTranh"> Truyện Tranh <br>
+          <input type="checkbox" id="LSu" name="LSu"> Lịch sử <br>
+        </li>
       </ol>
+      <input type="submit" name="dx" value="Góp ý">
     </form>
   </body>
+</html>
